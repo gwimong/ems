@@ -1,0 +1,136 @@
+import uuid from "uuid/v1";
+
+export default [
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+  {
+    id: uuid(),
+    PCId: uuid(),
+    PCName: "테스트 PC임",
+    PCOwner: "admin@inspace.re.kr",
+    UpdateDate: "2020-01-01 00:00:00",
+    IsOSValidation: 0,
+    IsPasswordPolicyValidation: 1,
+    IsScreenValidation: 1,
+    IsProductValidation: 1,
+    IsVaccineValidation: 1
+  },
+];

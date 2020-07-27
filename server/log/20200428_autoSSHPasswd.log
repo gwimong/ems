@@ -1,0 +1,50 @@
+exit
+logout
+Connection to 192.168.23.100 closed.
+exit
+logout
+Connection to 192.168.23.100 closed.
+exit
+logout
+Connection to 192.168.23.100 closed.
+sudo expect_autopasswd inems daComH58w
+spawn passwd inems
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+inems@DEL-SE001:~$ sudo expect_autopasswd inems knRnn3zO5
+spawn passwd inems
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+inems@DEL-SE001:~$ exit
+logout
+Connection to 192.168.23.100 closed.
+exit
+logout
+Connection to 192.168.23.100 closed.
+exit
+logout
+Connection to 192.168.23.100 closed.
+exit
+logout
+Connection to 192.168.23.100 closed.
+exit
+logout
+Connection to 192.168.23.100 closed.
+sudo expect_autopasswd inems p9Mb1Vrig
+spawn passwd inems
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+inems@DEL-SE001:~$ exit
+logout
+Connection to 192.168.23.100 closed.
+sudo expect_autopasswd inems 5Ch5ovMyj
+spawn passwd inems
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+inems@DEL-SE001:~$ exit
+logout
+Connection to 192.168.23.100 closed.

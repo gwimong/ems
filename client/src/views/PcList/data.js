@@ -1,0 +1,35 @@
+import uuid from "uuid/v1";
+
+export default [
+  {
+    PCId: uuid(),
+    PCName: "귀몽PC",
+    PCOwner: "gmpark@inspace.re.kr",
+    OSType: 18,
+    OSName: "Microsoft Windows 10 Pro",
+    OSSerialNumber: "00331-20020-00000-AA485",
+    UpdateDate: "2020-02-06 19:00:47",
+    MinimumPasswordAge: 30,
+    MaximumPasswordAge: 95,
+    MinimumPasswordLength: 10,
+    PasswordComplexity: 1,
+    PasswordHistorySize: 1,
+    LockoutBadCount: 1,
+    ResetLockoutCount: 32,
+    LockoutDuration: 32,
+    ScreenSaverIsSecure: 32,
+    ScreenSaveTimeOut: 300,
+    ScreenSaveFilePath: "C:\\WINDOWS\\LINESC~1.SCR",
+    Processor: "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+    MemorySize: 33485284,
+    ComputerName: "DESKTOP-IMN1RJ9",
+    ComputerDescription: "",
+    PhysicalAddress: "D8CB8A3C338F",
+    IP4Address: "192.168.32.46",
+    IsOSValidation: true,
+    IsPasswordPolicyValidation: true,
+    IsScreenValidation: true,
+    IsProductValidation: true,
+    IsVaccineValidation: true,
+  }
+];

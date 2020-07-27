@@ -1,0 +1,142 @@
+Spawned 'ssh inems@192.168.23.100 -p 22'
+	spawn id(3)
+	Pid: 470
+	Tty: /dev/pts/0
+ at /usr/local/share/perl/5.26.1/Expect.pm line 184.
+	Expect::spawn(Expect=GLOB(0x7fffc34c5768), "ssh inems\@192.168.23.100 -p 22") called at ./script/expect_autocommand.pl line 143
+	main::connect_server(Expect=GLOB(0x7fffc34c5768)) called at ./script/expect_autocommand.pl line 75
+	main::main() called at ./script/expect_autocommand.pl line 62
+Starting EXPECT pattern matching...
+ at /usr/local/share/perl/5.26.1/Expect.pm line 597.
+	Expect::expect(Expect=GLOB(0x7fffc34c5768), 30, ARRAY(0x7fffc3dd7ac0), ARRAY(0x7fffc3ddcb70), ARRAY(0x7fffc3ddcbe8), ARRAY(0x7fffc3ddcb88), ARRAY(0x7fffc3ddcd68), ARRAY(0x7fffc3ddce70), ...) called at ./script/expect_autocommand.pl line 174
+	main::connect_server(Expect=GLOB(0x7fffc34c5768)) called at ./script/expect_autocommand.pl line 75
+	main::main() called at ./script/expect_autocommand.pl line 62
+spawn id(3): list of patterns:
+  #1: -re `(?^:sername: )'
+  #2: -re `(?^:ssword: )'
+  #3: -re `(?^:yes/no)'
+  #4: -re `(?^:[y]:)'
+  #5: -re `(?^:ermission denied|onnection refused)'
+  #6: -re `(?^:ogin incorrect|onnection closed)'
+  #7: -re `(?^:o route to host)'
+  #8: -re `(?^:emporarily unavailable)'
+  #10: -re `(?^:[#>\\$\\]]\\s?(\\e\\[\\d*;?\\d*m){0,1}\\s?$)'
+
+
+spawn id(3): Does `'
+match:
+  pattern #1: -re `(?^:sername: )'? No.
+  pattern #2: -re `(?^:ssword: )'? No.
+  pattern #3: -re `(?^:yes/no)'? No.
+  pattern #4: -re `(?^:[y]:)'? No.
+  pattern #5: -re `(?^:ermission denied|onnection refused)'? No.
+  pattern #6: -re `(?^:ogin incorrect|onnection closed)'? No.
+  pattern #7: -re `(?^:o route to host)'? No.
+  pattern #8: -re `(?^:emporarily unavailable)'? No.
+  pattern #10: -re `(?^:[#>\\$\\]]\\s?(\\e\\[\\d*;?\\d*m){0,1}\\s?$)'? No.
+
+
+spawn id(3): Does `inems@192.168.23.100\'s password: '
+match:
+  pattern #1: -re `(?^:sername: )'? No.
+  pattern #2: -re `(?^:ssword: )'? YES!!
+    Before match string: `inems@192.168.23.100\'s pa'
+    Match string: `ssword: '
+    After match string: `'
+    Matchlist: ()
+Calling hook CODE(0x7fffc3dd70d0)...
+Sending 'p9Mb1Vrig\n' to spawn id(3)
+ at /usr/local/share/perl/5.26.1/Expect.pm line 1421.
+	Expect::print(Expect=GLOB(0x7fffc34c5768), "p9Mb1Vrig\x{a}") called at ./script/expect_autocommand.pl line 148
+	main::__ANON__(Expect=GLOB(0x7fffc34c5768)) called at /usr/local/share/perl/5.26.1/Expect.pm line 825
+	Expect::_multi_expect(30, ARRAY(0x7fffc3f3db58), ARRAY(0x7fffc3f3e0c8)) called at /usr/local/share/perl/5.26.1/Expect.pm line 602
+	Expect::expect(Expect=GLOB(0x7fffc34c5768), 30, ARRAY(0x7fffc3dd7ac0), ARRAY(0x7fffc3ddcb70), ARRAY(0x7fffc3ddcbe8), ARRAY(0x7fffc3ddcb88), ARRAY(0x7fffc3ddcd68), ARRAY(0x7fffc3ddce70), ...) called at ./script/expect_autocommand.pl line 174
+	main::connect_server(Expect=GLOB(0x7fffc34c5768)) called at ./script/expect_autocommand.pl line 75
+	main::main() called at ./script/expect_autocommand.pl line 62
+Continuing expect, restarting timeout...
+
+spawn id(3): Does `'
+match:
+  pattern #1: -re `(?^:sername: )'? No.
+  pattern #2: -re `(?^:ssword: )'? No.
+  pattern #3: -re `(?^:yes/no)'? No.
+  pattern #4: -re `(?^:[y]:)'? No.
+  pattern #5: -re `(?^:ermission denied|onnection refused)'? No.
+  pattern #6: -re `(?^:ogin incorrect|onnection closed)'? No.
+  pattern #7: -re `(?^:o route to host)'? No.
+  pattern #8: -re `(?^:emporarily unavailable)'? No.
+  pattern #10: -re `(?^:[#>\\$\\]]\\s?(\\e\\[\\d*;?\\d*m){0,1}\\s?$)'? No.
+
+
+spawn id(3): Does `\r\n'
+match:
+  pattern #1: -re `(?^:sername: )'? No.
+  pattern #2: -re `(?^:ssword: )'? No.
+  pattern #3: -re `(?^:yes/no)'? No.
+  pattern #4: -re `(?^:[y]:)'? No.
+  pattern #5: -re `(?^:ermission denied|onnection refused)'? No.
+  pattern #6: -re `(?^:ogin incorrect|onnection closed)'? No.
+  pattern #7: -re `(?^:o route to host)'? No.
+  pattern #8: -re `(?^:emporarily unavailable)'? No.
+  pattern #10: -re `(?^:[#>\\$\\]]\\s?(\\e\\[\\d*;?\\d*m){0,1}\\s?$)'? No.
+
+
+spawn id(3): Does `\r\nWelcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-65-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n\r\n * Ubuntu 20.04 LTS is out, raising the bar on performance, security,\r\n   and optimisation for Intel, AMD, Nvidia, ARM64 and Z15 as well as\r\n   AWS, Azure and Google Cloud.\r\n\r\n     https://ubuntu.com/blog/ubuntu-20-04-lts-arrives\r\n\r\n\r\n * Canonical Livepatch is available for installation.\r\n   - Reduce system reboots and improve kernel security. Activate at:\r\n     https://ubuntu.com/livepatch\r\n\r\n33 packages can be updated.\r\n15 updates are security updates.\r\n\r\n*** System restart required ***\r\nLast login: Tue Apr 28 15:57:43 2020 from 192.168.32.46\r\r\n'
+match:
+  pattern #1: -re `(?^:sername: )'? No.
+  pattern #2: -re `(?^:ssword: )'? No.
+  pattern #3: -re `(?^:yes/no)'? No.
+  pattern #4: -re `(?^:[y]:)'? No.
+  pattern #5: -re `(?^:ermission denied|onnection refused)'? No.
+  pattern #6: -re `(?^:ogin incorrect|onnection closed)'? No.
+  pattern #7: -re `(?^:o route to host)'? No.
+  pattern #8: -re `(?^:emporarily unavailable)'? No.
+  pattern #10: -re `(?^:[#>\\$\\]]\\s?(\\e\\[\\d*;?\\d*m){0,1}\\s?$)'? No.
+
+
+spawn id(3): Does `\r\nWelcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-65-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n\r\n * Ubuntu 20.04 LTS is out, raising the bar on performance, security,\r\n   and optimisation for Intel, AMD, Nvidia, ARM64 and Z15 as well as\r\n   AWS, Azure and Google Cloud.\r\n\r\n     https://ubuntu.com/blog/ubuntu-20-04-lts-arrives\r\n\r\n\r\n * Canonical Livepatch is available for installation.\r\n   - Reduce system reboots and improve kernel security. Activate at:\r\n     https://ubuntu.com/livepatch\r\n\r\n33 packages can be updated.\r\n15 updates are security updates.\r\n\r\n*** System restart required ***\r\nLast login: Tue Apr 28 15:57:43 2020 from 192.168.32.46\r\r\ninems@DEL-SE001:~$ '
+match:
+  pattern #1: -re `(?^:sername: )'? No.
+  pattern #2: -re `(?^:ssword: )'? No.
+  pattern #3: -re `(?^:yes/no)'? No.
+  pattern #4: -re `(?^:[y]:)'? No.
+  pattern #5: -re `(?^:ermission denied|onnection refused)'? No.
+  pattern #6: -re `(?^:ogin incorrect|onnection closed)'? No.
+  pattern #7: -re `(?^:o route to host)'? No.
+  pattern #8: -re `(?^:emporarily unavailable)'? No.
+  pattern #10: -re `(?^:[#>\\$\\]]\\s?(\\e\\[\\d*;?\\d*m){0,1}\\s?$)'? YES!!
+    Before match string: `\r\nWelcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-65-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n\r\n * Ubuntu 20.04 LTS is out, raising the bar on performance, security,\r\n   and optimisation for Intel, AMD, Nvidia, ARM64 and Z15 as well as\r\n   AWS, Azure and Google Cloud.\r\n\r\n     https://ubuntu.com/blog/ubuntu-20-04-lts-arrives\r\n\r\n\r\n * Canonical Livepatch is available for installation.\r\n   - Reduce system reboots and improve kernel security. Activate at:\r\n     https://ubuntu.com/livepatch\r\n\r\n33 packages can be updated.\r\n15 updates are security updates.\r\n\r\n*** System restart required ***\r\nLast login: Tue Apr 28 15:57:43 2020 from 192.168.32.46\r\r\ninems@DEL-SE001:~'
+    Match string: `$ '
+    After match string: `'
+    Matchlist: (`')
+Sending 'sudo expect_autopasswd inems 5Ch5ovMyj\n' to spawn id(3)
+ at /usr/local/share/perl/5.26.1/Expect.pm line 1421.
+	Expect::print(Expect=GLOB(0x7fffc34c5768), "sudo expect_autopasswd inems 5Ch5ovMyj\x{a}") called at ./script/expect_autocommand.pl line 186
+	main::command_run(Expect=GLOB(0x7fffc34c5768)) called at ./script/expect_autocommand.pl line 80
+	main::main() called at ./script/expect_autocommand.pl line 62
+Starting EXPECT pattern matching...
+ at /usr/local/share/perl/5.26.1/Expect.pm line 597.
+	Expect::expect(Expect=GLOB(0x7fffc34c5768), 2, ARRAY(0x7fffc3f3d810), "-re", qr([#] $)) called at ./script/expect_autocommand.pl line 192
+	main::command_run(Expect=GLOB(0x7fffc34c5768)) called at ./script/expect_autocommand.pl line 80
+	main::main() called at ./script/expect_autocommand.pl line 62
+spawn id(3): list of patterns:
+  #1: -re `(?^:--More--)'
+  #2: -re `(?^:[#] $)'
+
+
+spawn id(3): Does `'
+match:
+  pattern #1: -re `(?^:--More--)'? No.
+  pattern #2: -re `(?^:[#] $)'? No.
+
+
+spawn id(3): Does `sudo expect_autopasswd inems 5Ch5ovMyj\r\nspawn passwd inems\r\r\r\nEnter new UNIX password: \r\r\nRetype new UNIX password: \r\r\npasswd: password updated successfully\r\r\ninems@DEL-SE001:~$ '
+match:
+  pattern #1: -re `(?^:--More--)'? No.
+  pattern #2: -re `(?^:[#] $)'? No.
+
+Sending 'exit\n' to spawn id(3)
+ at /usr/local/share/perl/5.26.1/Expect.pm line 1421.
+	Expect::print(Expect=GLOB(0x7fffc34c5768), "exit\x{a}") called at ./script/expect_autocommand.pl line 122
+	main::exit_proc("Completed all tasks successfully", 0, 1, Expect=GLOB(0x7fffc34c5768)) called at ./script/expect_autocommand.pl line 87
+	main::main() called at ./script/expect_autocommand.pl line 62

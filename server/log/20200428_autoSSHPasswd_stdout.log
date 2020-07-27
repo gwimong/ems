@@ -1,0 +1,41 @@
+HOST : 192.168.23.100
+PORT : 22
+Connection account : inems
+Connection account password : p9Mb1Vrig
+Is Run command : ture
+inems@192.168.23.100's password: 
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-65-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ * Ubuntu 20.04 LTS is out, raising the bar on performance, security,
+   and optimisation for Intel, AMD, Nvidia, ARM64 and Z15 as well as
+   AWS, Azure and Google Cloud.
+
+     https://ubuntu.com/blog/ubuntu-20-04-lts-arrives
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+33 packages can be updated.
+15 updates are security updates.
+
+*** System restart required ***
+Last login: Tue Apr 28 15:57:43 2020 from 192.168.32.46
+inems@DEL-SE001:~$ Run expect_autopasswdsudo expect_autopasswd inems 5Ch5ovMyj
+spawn passwd inems
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+inems@DEL-SE001:~$ Database update success
+Database update success
+exit
+logout
+Connection to 192.168.23.100 closed.
+Exit Message = Completed all tasks successfully
+Exit Code = 0
+Bye.
