@@ -11,10 +11,10 @@ CREATE TABLE `tb_licensed_product` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-create view inems.view_pc as select * from inproduct.tb_pc;
-create view inems.view_pc_history as select * from inproduct.tb_pc_history;
-create view inems.view_product as select * from inproduct.tb_product;
-create view inems.view_inspace_product as select * from inproduct.tb_inspace_product;
+# create view inems.view_pc as select * from inproduct.tb_pc;
+# create view inems.view_pc_history as select * from inproduct.tb_pc_history;
+# create view inems.view_product as select * from inproduct.tb_product;
+# create view inems.view_inspace_product as select * from inproduct.tb_inspace_product;
 
 CREATE TABLE `tb_server` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
